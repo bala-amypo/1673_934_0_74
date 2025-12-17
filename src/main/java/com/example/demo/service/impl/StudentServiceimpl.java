@@ -6,3 +6,10 @@ import org.springframework.stereotype.Service;
 import com.example.demo.entity.Student;
 import com.example.demo.repository.StudentRepo;
 import com.example.demo.service.StudentService;
+@Service
+public class StudentServiceimpl implements StudentService{
+    
+
+
+
+}
