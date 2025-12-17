@@ -13,7 +13,11 @@ public class StudentServiceimpl implements StudentService{
     StudentRepo strepo;
 
     @Override
-    
+    public Student insertStudent(Student st){
+
+        
+
+    }
 
 
 
