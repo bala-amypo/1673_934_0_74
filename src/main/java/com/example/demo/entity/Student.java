@@ -74,4 +74,5 @@ public class Student {
     }
 
     public void setCgpa(float cgpa) {
-        this.cgpa = cgpa; }}
+        this.cgpa = cgpa; }
+}
