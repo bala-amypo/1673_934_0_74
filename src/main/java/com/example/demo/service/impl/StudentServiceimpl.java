@@ -20,7 +20,17 @@ public class StudentServiceimpl implements StudentService{
     }
 
     @Override
-    public list<Student>
+    public list<Student> getAllStudents(){
+
+        return StudentRepo.findAll(st);
+    }
+
+    @Override
+    public Optional<Student> getOneStudent(Long id){
+        return StudentRepo.findBy(st);
+    }
+
+    
 
 
 
