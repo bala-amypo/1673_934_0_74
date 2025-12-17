@@ -19,11 +19,11 @@ public class Student {
     private LocalDate dob;
     private float cgpa;
 
-    // ✅ Default constructor (REQUIRED by JPA)
+    
     public Student() {
     }
 
-    // ✅ Parameterized constructor
+    
     public Student(Long id, String name, String email, LocalDate dob, float cgpa) {
         this.id = id;
         this.name = name;
@@ -32,7 +32,7 @@ public class Student {
         this.cgpa = cgpa;
     }
 
-    // Getter and Setter for id
+    
     public Long getId() {
         return id;
     }
@@ -41,7 +41,7 @@ public class Student {
         this.id = id;
     }
 
-    // Getter and Setter for name
+    
     public String getName() {
         return name;
     }
@@ -50,7 +50,7 @@ public class Student {
         this.name = name;
     }
 
-    // Getter and Setter for email
+    
     public String getEmail() {
         return email;
     }
@@ -59,7 +59,7 @@ public class Student {
         this.email = email;
     }
 
-    // Getter and Setter for dob
+    
     public LocalDate getDob() {
         return dob;
     }
@@ -68,7 +68,7 @@ public class Student {
         this.dob = dob;
     }
 
-    // Getter and Setter for cgpa
+    
     public float getCgpa() {
         return cgpa;
     }
