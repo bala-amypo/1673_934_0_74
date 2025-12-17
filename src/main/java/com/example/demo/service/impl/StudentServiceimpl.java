@@ -27,10 +27,11 @@ public class StudentServiceimpl implements StudentService{
 
     @Override
     public Optional<Student> getOneStudent(Long id){
-        return StudentRepo.findBy(st);
+        return StudentRepo.findBy(id);
     }
 
-    
+    @Override
+    public void deleteStudent(long id)
 
 
 
