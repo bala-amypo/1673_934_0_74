@@ -15,7 +15,7 @@ public class StudentServiceimpl implements StudentService{
     @Override
     public Student insertStudent(Student st){
 
-        strepo.save()
+        return strepo.save(st);
 
     }
 
